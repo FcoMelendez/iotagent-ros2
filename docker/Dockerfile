@@ -34,7 +34,7 @@ RUN apt-get update && apt-get install -y \
     && apt-get update && apt-get install -y --no-install-recommends unzip \
     && unzip source.zip \
     && rm source.zip \
-    && cd iotagent-ros2 && npm install \
+    && cd iotagent-ros2-master && npm install \
 #   Step 4
     && ros2 interface list \
     && which node && pwd	
