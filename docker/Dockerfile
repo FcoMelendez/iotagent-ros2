@@ -30,7 +30,7 @@ RUN apt-get update && apt-get install -y \
     && node -v \
     && nvm list \
 #   Step 3
-    && curl -s -L https://github.com/FcoMelendez/iotagent-json/archive/refs/heads/binding-ros2.zip > source.zip \
+    && curl -s -L https://github.com/FcoMelendez/iotagent-ros2/archive/refs/heads/master.zip > source.zip \
     && apt-get update && apt-get install -y --no-install-recommends unzip \
     && unzip source.zip \
     && rm source.zip \
